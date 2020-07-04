@@ -1,6 +1,6 @@
 # Objective
 
-Online Application Service that accepts Human Pose Skeletal key points of a sign video and return the label of the sign as a JSON Response. The Key points are generated using TensorFlow’s Pose Net.
+Online RESTful Application Service that accepts Human Pose Skeletal key points of a sign video and return the label of the sign as a JSON Response. The Key points are generated using TensorFlow’s Pose Net.
 
 •	For generating the key points, please follow instructions in the link -> https://github.com/prashanthnetizen/posenet_nodejs_setup
 
