@@ -1,13 +1,3 @@
-######################################################################################################################
-
-CSE 535 Spring 2020 - Project 2
-
-Group 4 Members:
-Jayesh Kudase               Arpit Arora
-Amey Athale                 Aditya Chavan
-
-######################################################################################################################
-
 # Objective
 In this project, our group has developed an online RESTful application Service that can classify American 
 Sign Language. We have trained 4 models that helps classify the input provided in form of JSON data into
