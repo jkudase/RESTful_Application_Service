@@ -32,19 +32,23 @@ which classifiers would work the best for the given data. Accuracy was also meas
 Feel free to uncomment the functions and the model in order to check the validation accuracies for each of the model.
 
 #Deployment:
+
 The above models have been deployed to the Amazon EC2 server. The serverApp.py script is run using flask on this EC2 
 instance.
 
 #Testing
+
 The url that can be used to test the script and obtain labels is as follows: 
 http://54.189.183.128:5000/getLabels
 
 Using CURL:
+
 Please send the body (data) of JSON file as the input, since the server is designed to handle this type of input data.
 For e.g. the curl request that can be used from the linux terminal is: 
 curl -d "@test.json" -H "Content-Type: application/json" -X POST http://54.189.183.128:5000/getLabels
 
 USing Postman:
+
 Put the above EC2 link in the 'POST' Request field.
 Paste the json data in the body section of the application. 
 Body should be 'raw' and 'json' type.
