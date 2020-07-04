@@ -1,4 +1,9 @@
 # Objective
+
+Online Application Service that accepts Human Pose Skeletal key points of a sign video and return the label of the sign as a JSON Response. The Key points are generated using TensorFlow’s Pose Net.
+
+•	For generating the key points, please follow instructions in the link -> https://github.com/prashanthnetizen/posenet_nodejs_setup
+
 In this project, our group has developed an online RESTful application Service that can classify American 
 Sign Language. We have trained 4 models that helps classify the input provided in form of JSON data into
 it's corresponding sign language.
@@ -7,11 +12,15 @@ it's corresponding sign language.
 The 4 models developed using the training data are as follows:
 
 model 1: KNeighborsClassifier
+
 model 2: RandomForestClassifier
+
 model 3: DecisionTreeClassifier
+
 model 4: ExtraTreesClassifier
 
 #Training Method:
+
 All the data provided by Professor and our own video dataset was used to train the above four models. 
 The complete data that can be used to train these models and generate PKL files can be obtained at below
 google drive link:
